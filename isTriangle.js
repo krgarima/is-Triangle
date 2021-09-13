@@ -7,9 +7,9 @@ isTriangleButton.addEventListener("click", isTriangle);
 function isTriangle() {
     const sum = calculateSumOfAngles();
     if (sum === 180)
-        outputE1.innerText = "Voila! The angles form a triangle.";
+        outputE1.innerText = "Result: Voila! The angles form a triangle.";
     else
-        outputE1.innerText = "Not a triangle.";
+        outputE1.innerText = "Result: Not a triangle.";
 }
 
 function calculateSumOfAngles() {

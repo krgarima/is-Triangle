@@ -1,0 +1,56 @@
+.header
+{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: cadetblue;
+    padding: 1rem 1.0rem;
+    color-adjust:rgb(255, 255, 255);
+    /* text-align: center;
+    margin: 2rem 0rem;
+     */
+}
+
+body{
+    background-color: rgb(245, 253, 253);
+    font-size: 2rem;
+    text-align: center;
+}
+
+h1
+{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0rem;
+    padding: 0.5rem 1.0rem;
+}
+
+h2{
+    font-size: 1.8rem;
+    display: block;
+}
+
+.container
+{
+    margin: 1rem 0rem;
+    padding: 0.5rem 1.0rem;
+}
+
+.btn
+{
+    background-color: rgb(8, 248, 248);
+    font-size: 1.5rem;
+}
+
+.result
+{
+    font-size: 1.3rem;
+    padding: 1.8rem 1.0rem;
+    color: red;
+}
+
+.btn2
+{
+    background-color: rgb(8, 248, 248);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
