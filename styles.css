@@ -5,9 +5,6 @@
     background-color: cadetblue;
     padding: 1rem 1.0rem;
     color-adjust:rgb(255, 255, 255);
-    /* text-align: center;
-    margin: 2rem 0rem;
-     */
 }
 
 body{
@@ -39,7 +36,7 @@ h2{
 {
     background-color: black;
     font-size: 1rem;
-    padding: 0.5rem 0.5rem;
+    padding: 0.7rem 0.7rem;
     color: white;
     border-radius: 1rem;
 }
