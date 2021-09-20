@@ -37,8 +37,11 @@ h2{
 
 .btn
 {
-    background-color: rgb(8, 248, 248);
-    font-size: 1.5rem;
+    background-color: black;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    color: white;
+    border-radius: 1rem;
 }
 
 .result
@@ -53,4 +56,10 @@ h2{
     background-color: rgb(8, 248, 248);
     font-size: 1.5rem;
     margin-top: 2rem;
+}
+
+.sp
+{
+    color:white;
+    text-decoration: none;
 }

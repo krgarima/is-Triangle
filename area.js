@@ -5,11 +5,18 @@ const Area = document.querySelector('#resultArea');
 function calculateValue()
 {
     if((Number(inputValues[0].value)&& Number(inputValues[1].value)))
-    {const product = prodOfBH(Number(inputValues[0].value), Number(inputValues[1].value));
-    const areaOfT = product/2;
-    Area.innerText = "Result is "+areaOfT;}
+    {
+        if( ((Number(inputValues[0].value)) >0 ) && ((Number(inputValues[1].value)) >0 ))
+    {
+        const product = prodOfBH(Number(inputValues[0].value), Number(inputValues[1].value));
+        const areaOfT = product/2;
+        Area.innerText = "Result is "+areaOfT +" sq. cm";
+    }
     else
-    Area.innerText = "Input error: Enter values in both the fields";
+    Area.innerText = "Entered value is Negative!";
+    }
+    else
+    Area.innerText = "Input error: Enter value in both the fields";
 }
 
 function prodOfBH(b,h)
