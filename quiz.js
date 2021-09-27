@@ -1,21 +1,22 @@
 const inputForm = document.querySelector('.formInput');
 const submitBtn = document.querySelector('#submit');
 const result = document.querySelector('#finalScore')
+const quizAnswer = ["45", "obtuse"];
 
-const quizAnswer = ["45°", "obtuse"];
-
-function calculateScore()
-{
-    let score = 0;
-    let index = 0;
-    const formResult = new FormData(inputForm);
-    for(let value of formResult.values())
-    {
-        if(value === quizAnswer[index])
-        score = score+1;
-        index= index+1;
+function calculateScore() {
+    const formResults = new FormData(inputForm);
+    let score = 0, index = 0, number=0;
+    for (let value of formResults.values()) {
+        console.log(quizAnswer[index]);
+        if (value === quizAnswer[index])
+            score = score + 1;
+        index = index + 1;
+        number = number + 1;
     }
-    result.innerText = "Result: Your score is "+score;
+    if(number === 2)
+    result.innerText = "Result: Your score is " + score;
+    else
+    result.innerText = "Please provide all inputs";
 }
 
 submitBtn.addEventListener("click", calculateScore);
