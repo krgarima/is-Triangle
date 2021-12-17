@@ -16,12 +16,12 @@ function calculateScore() {
     if(number === 2)
     {
         result.innerText = "Result: Your score is " + score;
-        output.style.color = "green";
+        result.style.color = "green";
     }
     else
     {
         result.innerText = "Please provide all inputs";
-        output.style.color = "red";
+        result.style.color = "red";
     }
 }
 

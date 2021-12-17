@@ -8,14 +8,14 @@ function calculateValue() {
             const product = prodOfBH(Number(inputValues[0].value), Number(inputValues[1].value));
             const areaOfT = product / 2;
             Area.innerText = "Result is " + areaOfT + " sq. cm";
-            output.style.color = "green";
+            Area.style.color = "green";
         } else {
             Area.innerText = "Entered value is Negative!";
-            output.style.color = "red";
+            Area.style.color = "red";
         }
     } else {
         Area.innerText = "Input error: Enter value in both the fields";
-        output.style.color = "red";
+        Area.style.color = "red";
     }
 }
 
