@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .header
 {
     font-size: 1.5rem;
@@ -11,6 +16,11 @@ body{
     background-color: rgb(245, 253, 253);
     font-size: 2rem;
     text-align: center;
+}
+
+main{
+    margin: 0rem 2.5rem 0rem 2.5rem 0rem;
+    height: 51.5vh;;
 }
 
 h1
@@ -38,21 +48,27 @@ h2{
     font-size: 1rem;
     padding: 0.7rem 0.7rem;
     color: white;
-    border-radius: 1rem;
+    border-radius: 0.2rem;
+    margin-top: 1.5rem;
+    width: 20vw;
+    border: 1px solid white;
 }
 
 .result
 {
     font-size: 1.3rem;
     padding: 1.8rem 1.0rem;
-    color: red;
 }
 
 .btn2
 {
-    background-color: rgb(8, 248, 248);
+    background-color: rgb(255, 255, 255);
     font-size: 1.5rem;
     margin-top: 2rem;
+    width: 28vw;
+    border-radius: 0.7rem;
+    padding: 0.3rem;
+    border: 2.2px solid rgb(0, 35, 99);
 }
 
 .sp
@@ -62,7 +78,7 @@ h2{
 }
 
 footer {
-    background-color: rgba(0, 217, 255, 0.295);
+    background-color: rgb(0, 74, 77);
     padding: 0.5rem 1rem;
     text-align: center;
     color: white;
@@ -73,6 +89,7 @@ footer {
 .footer .link {
     color:black;
     font-size: 1rem;
+    -webkit-text-stroke: 0.8px rgb(255, 255, 255);
 }
 
 .footer ul {

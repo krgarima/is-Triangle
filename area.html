@@ -12,20 +12,27 @@
 <body>
 
     <header class="header">
-        <nav><div><a href="index.html" class="sp" target="_blank">Is Triangle?</a></div> <div><a href="quiz.html" class="sp" target="_blank">Quiz</a></div> <div><a href="calHypotenuse.html" class="sp" target="_blank">calulate
-                Hypotenuse</a></div><div><a href="area.html" class="sp" target="_blank">Area</a></div></nav>
+        <nav>
+            <div><a href="index.html" class="sp" target="_blank">Is Triangle?</a></div>
+            <div><a href="quiz.html" class="sp" target="_blank">Quiz</a></div>
+            <div><a href="calHypotenuse.html" class="sp" target="_blank">calulate
+                    Hypotenuse</a></div>
+            <div><a href="area.html" class="sp" target="_blank">Area</a></div>
+        </nav>
     </header>
     <h1>Calculate Area</h1>
-    <h2>Area of a triangle = 1/2*(Base*Height)</h2>
-    <div class="container">
-        <li>
-            <label>Base (in cm) = </label>
-            <input class="inputSide" type="number" /></li>
-        <li><label>Height (in cm) = </label>
-            <input class="inputSide" type="number" /></li>
-    </div>
-    <button id="calculateValue" class="btn2">Calculate</button>
-    <div id="resultArea" class="result"></div>
+    
+        <h2>Area of a triangle = 1/2*(Base*Height)</h2>
+        <main>
+        <div class="container">
+            <label for="inputSide">Base(in cm) = </label>
+            <input class="inputSide" type="number" />
+            <label for="inputSide">Height(in cm) = </label>
+            <input class="inputSide" type="number" />
+        </div>
+        <button id="calculateValue" class="btn2">Calculate</button>
+        <div id="resultArea" class="result"></div>
+    </main>
 
     <footer class="footer">
         <div class="footer-header">Social media presence</div>
