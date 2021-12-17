@@ -14,9 +14,15 @@ function calculateScore() {
         number = number + 1;
     }
     if(number === 2)
-    result.innerText = "Result: Your score is " + score;
+    {
+        result.innerText = "Result: Your score is " + score;
+        output.style.color = "green";
+    }
     else
-    result.innerText = "Please provide all inputs";
+    {
+        result.innerText = "Please provide all inputs";
+        output.style.color = "red";
+    }
 }
 
 submitBtn.addEventListener("click", calculateScore);
